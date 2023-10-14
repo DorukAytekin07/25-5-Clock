@@ -1,0 +1,55 @@
+*{
+    font-size: 20px;
+}
+body{
+    background-color:rgb(21, 65, 71);
+    color:aliceblue;
+    font-family: Roboto;
+    overflow-x: hidden;
+}
+:root::-webkit-scrollbar{
+    display: none;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    vertical-align: middle;
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+img{
+    width: 7rem;
+    height: 3rem;
+    align-items: center;
+}
+footer{
+    width: 100vw;
+    border-top: 5px aliceblue solid;
+    padding-bottom:50px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+}
+footer *{
+    margin-top: 50px;
+  
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+@media screen and (max-width: 650px) {
+    *{
+        font-size: 12px;
+    }
+  }
+  
+
+  @media screen and (max-width: 400px) {
+    *{
+        font-size: 8px;
+    }
+  }

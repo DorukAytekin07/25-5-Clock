@@ -1,0 +1,24 @@
+.set-timers-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.work-time-container{
+    margin-top: 1rem;
+    border: 0.5rem solid gray;
+    border-radius: 10px;
+}
+.break-time-container{
+    margin-top: 1rem;
+    border: 0.5rem solid gray;
+    border-radius: 10px;
+}
+.timer-container{
+    width:40vw;
+    margin: auto;
+}
+.timer-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+  

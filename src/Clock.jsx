@@ -231,6 +231,11 @@ export default class Clock extends React.Component {
           <div className="timer-buttons">
             <button id="start_stop" onClick={this.timerControl}>
               <img src={Play} alt="" />
+              
+            </button>
+
+            
+            <button id="start_stop" onClick={this.timerControl}>
               <img src={Pause} alt="" />
             </button>
             <button id="reset" onClick={this.reset}>
